@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: theme,
-      title: 'kndege',
+      title: 'kiwanja cha ndege',
       debugShowCheckedModeBanner: false,
       initialRoute: AppRoutes.dashboardScreen,
       routes: AppRoutes.routes,
