@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: theme,
       title: 'kiwanja cha ndege',
       debugShowCheckedModeBanner: false,
-      initialRoute: AppRoutes.dashboardScreen,
+      initialRoute: AppRoutes.loginPage,
       routes: AppRoutes.routes,
     );
   }

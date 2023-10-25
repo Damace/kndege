@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kndege/presentation/Login_Simple/login_page.dart';
 import 'package:kndege/presentation/splash_screen/splash_screen.dart';
 import 'package:kndege/presentation/login_screen/login_screen.dart';
 import 'package:kndege/presentation/signup_screen/signup_screen.dart';
@@ -58,6 +59,8 @@ class AppRoutes {
 
   static const String appNavigationScreen = '/app_navigation_screen';
 
+  static const String loginPage = '/login_page';
+
   static Map<String, WidgetBuilder> routes = {
     splashScreen: (context) => SplashScreen(),
     loginScreen: (context) => LoginScreen(),
@@ -75,6 +78,7 @@ class AppRoutes {
     ambulanceScreen: (context) => AmbulanceScreen(),
     scheduleTabContainerScreen: (context) => ScheduleTabContainerScreen(),
     messageTabContainerScreen: (context) => MessageTabContainerScreen(),
-    appNavigationScreen: (context) => AppNavigationScreen()
+    appNavigationScreen: (context) => AppNavigationScreen(),
+    loginPage: (context) => LoginPage()
   };
 }
